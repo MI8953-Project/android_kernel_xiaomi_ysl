@@ -121,3 +121,5 @@ obj-$(CONFIG_VITURALSAR)		+= vituralsar_driver.o
 
 obj-$(CONFIG_MACH_XIAOMI_YSL)	+= lct_tp_fm_info.o
 obj-$(CONFIG_TOUCHSCREEN_COMMON)	+= tp_common.o
+obj-$(CONFIG_TOUCHSCREEN_SWEEP2WAKE)	+= sweep2wake.o
+obj-$(CONFIG_TOUCHSCREEN_DOUBLETAP2WAKE)	+= doubletap2wake.o
